@@ -6,7 +6,6 @@
 
 
 .myservices {
-    background-color: skyblue;
     padding-bottom: 125px;
     padding-top: 50px;
 }
@@ -63,12 +62,13 @@
     background-color: green;
     margin-right: 25px;
     margin-left: 25px;
-    word-spacing: 5px;
+    padding-top: 25px;
+    padding-bottom: 40px;
 }
 
 .div-one h3{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 
@@ -79,13 +79,29 @@
     margin-left: 25px;
     text-align: center;
     margin-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.div-two h3{
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 
 .div-three{
     color: crimson;
-    margin-left: 25px;
-    margin-right: 25px;
     background-color: green;
+    margin-right: 25px;
+    margin-left: 25px;
     text-align: center;
+    margin-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+
+.div-three h3{
+    padding-top: 15px;
+    padding-bottom: 10px;
 }

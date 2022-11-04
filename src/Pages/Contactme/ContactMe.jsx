@@ -54,17 +54,17 @@ const ContactMe = () => {
               <div className='social-icon-first'>
                 <div className='social-instagram'>
                   <a href="https://www.instagram.com/manishkmr000/" target="_blank" rel="noopener noreferrer">
-                    <FaInstagram />
+                    <FaInstagram size={30}/>
                   </a>
                 </div>
                 <div className='social-linkedin'>
                   <a href="https://www.linkedin.com/in/manishkmr00" target="_blank" rel="noopener noreferrer">
-                    <FaLinkedin />
+                    <FaLinkedin size={30} />
                   </a>
                 </div>
                 <div className='social-github'>
                   <a href="https://github.com/Manish-kmr00" target="_blank" rel="noopener noreferrer">
-                    <FaGithub />
+                    <FaGithub size={30} />
                   </a>
                 </div>
               </div>

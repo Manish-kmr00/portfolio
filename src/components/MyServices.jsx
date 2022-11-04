@@ -1,7 +1,5 @@
 import React from 'react'
-import { FaPaintBrush, FaDev } from 'react-icons/fa';
-import { SiHappycow } from 'react-icons/si';
-
+import { FaPaintBrush, FaDev, FaHtml5} from 'react-icons/fa';
 
 import "./MyServices.css"
 
@@ -16,8 +14,8 @@ const MyServices = () => {
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, eveniet!</p></div>
                     <div className='div-two'><FaDev size={35}/><h3>Digital marketing</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, voluptatibus?</p></div>
-                    <div className='div-three'><SiHappycow size={35}/><h3>App Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, est?</p></div>
+                    <div className='div-three'><FaHtml5 size={35}/><h3>App Design</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, voluptatibus?</p></div>
                 </div>
             </div>
         </>

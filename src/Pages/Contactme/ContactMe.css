@@ -63,6 +63,7 @@
 
 .section-two h2{
     margin-bottom: 25px;
+    margin-top: 50px;
 }
 
 .section-two input{
@@ -83,7 +84,7 @@
     position: absolute;
     align-items: right;
     right: 250px;
-    top: 180px;
+    top: 178px;
     border: none;
     border-bottom: 1px gray;
 }
