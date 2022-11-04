@@ -1,0 +1,91 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.myservices {
+    background-color: skyblue;
+    padding-bottom: 125px;
+    padding-top: 50px;
+}
+
+.myservices .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+
+.myservices .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+
+
+.myservices .title::after {
+    content: "what i provide";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    height: 15px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+
+
+
+.main-div {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.div-one{
+    color: crimson;
+    text-align: center;
+    background-color: green;
+    margin-right: 25px;
+    margin-left: 25px;
+    word-spacing: 5px;
+}
+
+.div-one h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.div-two{
+    color: crimson;
+    background-color: green;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+
+.div-three{
+    color: crimson;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: green;
+    text-align: center;
+}

@@ -1,0 +1,111 @@
+.main{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 500px;
+}
+
+
+
+/* section-one */
+
+
+
+
+.section-one{
+    background-color: #0BD7D4;
+    padding: 30px;
+    height: 525px;
+}
+
+
+.section-one h2{
+    padding-top: 22px;
+}
+
+.section-one p{
+    padding-top: 40px;
+}
+
+
+.social-icon-first{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+
+.social-icon-first .social-instagram{
+    margin-right: 25px;
+    
+}
+
+
+.social-icon-first .social-linkedin{
+    margin-right: 25px;
+}
+
+
+
+
+
+/* section-two */
+
+
+
+
+.section-two{
+    margin: 50px;
+}
+
+
+
+.section-two h2{
+    margin-bottom: 25px;
+}
+
+.section-two input{
+    margin-top: 15px;
+    padding-right: 70px;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+
+.section-two div{
+    margin-bottom: 30px;
+}
+
+
+.section-two .email{
+    position: absolute;
+    align-items: right;
+    right: 250px;
+    top: 180px;
+    border: none;
+    border-bottom: 1px gray;
+}
+
+
+.section-two .phone input{
+    padding-right: 360px;
+}
+
+
+
+.section-two .message textarea{
+    border: none;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding-right: 160px;
+}
+
+
+.section-two-btn{
+    padding: 12px;
+    border-radius: 5px;   
+    border: none;
+    background-color: #0BD7D4; 
+}
