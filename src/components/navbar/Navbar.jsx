@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink ,Link} from 'react-router-dom'
 import { FaInstagram ,FaLinkedin,FaGithub } from 'react-icons/fa';
 import "./Navbar.css"
-import logo from "../images/logo.png"
+import logo from "../../images/logo.png"
 
 
 const Navbar = () => {

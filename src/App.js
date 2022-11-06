@@ -2,8 +2,8 @@ import { Routes, Route } from 'react-router-dom'
 import Contactme from './Pages/Contactme/ContactMe';
 import Home from "./Pages/Home"
 import Education from "./Pages/Education/Education"
-import Footer from "./components/Footer"
-import Navbar from './components/Navbar';
+import Footer from "./components/footer/Footer"
+import Navbar from './components/navbar/Navbar';
 import NotFound from './Pages/NotFound';
 import Projects from './Pages/Project/Projects';
 

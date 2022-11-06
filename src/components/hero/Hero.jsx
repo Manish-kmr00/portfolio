@@ -1,7 +1,7 @@
 import React from 'react'
-import man from "../images/man.png"
-import "./Hero.css"
-import Type from './Type';
+import man from "../../images/man.png"
+import "../hero/Hero.css"
+import Type from '../Type';
 
 
 
