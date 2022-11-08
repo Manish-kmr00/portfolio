@@ -1,0 +1,21 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.footer-social-icon{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.footer-social-icon div{
+    margin: 10px;
+}
+
+
+
+.footer-first-para{
+    text-align: center;
+}

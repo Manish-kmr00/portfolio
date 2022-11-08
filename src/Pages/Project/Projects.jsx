@@ -1,6 +1,5 @@
 import React from 'react'
-import Certifications from '../../components/Certifications/Certifications';
-
+import "./Projects.css"
 
 
 
@@ -8,8 +7,7 @@ const Projects = () => {
   return (
   <>
 
-  
-    <Certifications/>
+  <h1>Coming soon...!</h1>
 
   </>
   )

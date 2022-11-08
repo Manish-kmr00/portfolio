@@ -19,16 +19,19 @@ const Certifications = () => {
                         <img src={digitalMarekting} alt="" />
                         <h2>Digital Marekting</h2>
                         <h6>andrew Ng</h6>
+                        <a href="">See More</a>
                     </div>
                     <div className='Certificat-main-section-div-two'>
                         <img src={digitalMarekting} alt="" />
                         <h2>Frontend Developer</h2>
                         <h6>andrew Ng</h6>
+                        <a href="">See More</a>
                     </div>
                     <div className='Certificat-main-section-div-three'>
                         <img src={digitalMarekting} alt="" />
                         <h2>Mobile Developer</h2>
                         <h6>Jackson Tyler</h6>
+                        <a href="">See More</a>
                     </div>
 
                 </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import "./Education.css"
 import { FaEdge , FaDocker, FaPython,FaModx, FaSteam} from "react-icons/fa";
 import education from "../../images/education.png"
+import Certifications from '../../components/Certifications/Certifications';
 
 
 
@@ -34,9 +35,7 @@ const Education = () => {
         </div>
         </div>
       </div>
-
-
-
+      <Certifications/>
     </>
   )
 }
