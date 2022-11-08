@@ -1,0 +1,81 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.education {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.education-section-one img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      margin-top: 25px;
+}
+
+
+
+.education-section-main-two {
+    text-align: center;
+    padding-top: 115px;
+    padding-right: 115px;
+}
+
+
+
+.education-h2 {
+    font-size: 50px;
+    padding-bottom: 15px;
+    color: blue;
+
+}
+
+
+.education-h6 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    color: blue;
+}
+
+
+.education-icon{
+display: flex;
+align-items: center;
+justify-content: center;
+color: crimson;
+
+}
+
+.logo-one{
+ color: crimson;   
+ margin: 20px;
+}
+
+
+.logo-two{
+    color: crimson;   
+    margin: 20px;
+   }
+   
+
+   .logo-three{
+    color: crimson;   
+    margin: 20px;
+   }
+   
+   .logo-four{
+    color: crimson;   
+    margin: 20px;
+   }
+   
+
+   .logo-five{
+    color: crimson;   
+    margin: 20px;
+   }
+   

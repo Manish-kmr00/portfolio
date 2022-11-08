@@ -29,7 +29,7 @@ li {
 
 }
 
-.navbar {
+.navbar{
     display: grid;
     grid-template-columns: 500px 575px 160px 100px;
     background-color: #0BD7D4;

@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import * as React from 'react';
 import Contactme from './Pages/Contactme/ContactMe';
 import Home from "./Pages/Home"
 import Education from "./Pages/Education/Education"

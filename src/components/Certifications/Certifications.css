@@ -1,0 +1,96 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.Certificat {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+
+.Certificat .certifcate-title{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 35px;
+        font-size: 45px;
+        font-weight: 800;
+}
+
+
+
+.Certificat-main-section {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+}
+
+
+.Certificat-main-section div{
+    margin-right: 70px;
+
+}
+
+
+.Certificat-main-section div h2{
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+.Certificat-main-section div h6{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+
+
+.Certificat-main-section-div-one{
+    background-color: grey;
+}
+
+.Certificat-main-section-div-one img{
+   height: 150px;
+   width: 280px;
+   background-color: #5BF1C1;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+
+
+
+.Certificat-main-section-div-two{
+    background-color: grey;
+}
+
+
+.Certificat-main-section-div-two img{
+    height: 150px;
+    width: 280px;
+    background-color: #5BF1C1;
+    padding-left: 100px;
+    padding-right: 100px;
+ }
+
+
+ .Certificat-main-section-div-three{
+    background-color: grey;
+
+}
+
+
+
+ .Certificat-main-section-div-three img{
+    height: 150px;
+   width: 280px;
+   background-color: #5BF1C1;
+   padding-left: 100px;
+   padding-right: 100px;
+ }
+
+

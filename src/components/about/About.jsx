@@ -2,11 +2,15 @@ import React from 'react'
 import  "../about/About.css"
 import men from "../../images/men.jpg"
 
+
 const About = () => {
 
 
   return (
     <>
+
+
+
       <div className='about'>
         <h2 className='title'>About me</h2>
         <div className='about-main-section'>

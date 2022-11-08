@@ -1,7 +1,8 @@
 import React from 'react'
 import { FaPaintBrush, FaDev, FaHtml5} from 'react-icons/fa';
-
 import "./MyServices.css"
+
+
 
 const MyServices = () => {
     return (
