@@ -5,6 +5,7 @@
 }
 
 
+
 .myskill {
     margin-top: 150px;
     margin-left: 150px;
@@ -63,7 +64,10 @@
     padding: 25px;
 }
 
-
+.myskill .para{
+ font-size: 18px;
+ word-spacing: 2px;
+}
 
 
 .myskill-section-two{
@@ -125,12 +129,12 @@ position: relative;
 }
 
 
-.myskill-section-two .php::before{
+.myskill-section-two .react::before{
     width: 70%;
 }
 
 
 
-.myskill-section-two .mysql::before{
+.myskill-section-two .react-native::before{
     width: 35%;
 }

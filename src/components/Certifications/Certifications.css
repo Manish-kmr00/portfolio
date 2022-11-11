@@ -13,12 +13,12 @@
 }
 
 
-.Certificat .certifcate-title{
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 35px;
-        font-size: 45px;
-        font-weight: 800;
+.Certificat .certifcate-title {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 75px;
+    font-size: 45px;
+    font-weight: 800;
 }
 
 
@@ -30,19 +30,19 @@
 }
 
 
-.Certificat-main-section div{
+.Certificat-main-section div {
     margin-right: 70px;
 
 }
 
 
-.Certificat-main-section div h2{
+.Certificat-main-section div h2 {
     padding-top: 15px;
     text-align: center;
 }
 
 
-.Certificat-main-section div h6{
+.Certificat-main-section div h6 {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -52,53 +52,51 @@
 
 .Certificat-main-section div a{
     text-decoration: none;
-    padding-left: 100px;
-    color: black
+    color: black;
+    background-color: #fff;
+    margin-left: 90px;
+    padding: 10px;
 }
 
 
 
-.Certificat-main-section-div-one{
+.Certificat-main-section-div-one {
     background-color: grey;
 }
 
-.Certificat-main-section-div-one img{
-   height: 150px;
-   width: 280px;
-   background-color: #5BF1C1;
-   padding-left: 100px;
-   padding-right: 100px;
-}
-
-
-
-.Certificat-main-section-div-two{
-    background-color: grey;
-}
-
-
-.Certificat-main-section-div-two img{
+.Certificat-main-section-div-one img {
     height: 150px;
     width: 280px;
     background-color: #5BF1C1;
-    padding-left: 100px;
-    padding-right: 100px;
- }
+    padding: 25px;
+}
 
 
- .Certificat-main-section-div-three{
+
+.Certificat-main-section-div-two {
+    background-color: grey;
+}
+
+
+.Certificat-main-section-div-two img {
+    height: 150px;
+    width: 280px;
+    background-color: #5BF1C1;
+    padding: 25px;
+}
+
+
+.Certificat-main-section-div-three {
     background-color: grey;
 
 }
 
 
 
- .Certificat-main-section-div-three img{
+.Certificat-main-section-div-three img {
     height: 150px;
-   width: 280px;
-   background-color: #5BF1C1;
-   padding-left: 100px;
-   padding-right: 100px;
- }
+    width: 280px;
+    background-color: #5BF1C1;
+    padding: 20px;
 
-
+}

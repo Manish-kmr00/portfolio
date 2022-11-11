@@ -3,6 +3,7 @@ import "./Education.css"
 import { FaEdge , FaDocker, FaPython,FaModx, FaSteam} from "react-icons/fa";
 import education from "../../images/education.png"
 import Certifications from '../../components/Certifications/Certifications';
+import Degree from '../../components/Degree/Degree';
 
 
 
@@ -35,6 +36,7 @@ const Education = () => {
         </div>
         </div>
       </div>
+      <Degree/>
       <Certifications/>
     </>
   )

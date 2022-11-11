@@ -16,8 +16,7 @@ const Hero = () => {
           <h4 className='hero-top'>This is me </h4>
           <h1 className='hero-heading'>Kmr <br /> Manish</h1>
           <h3><Type/></h3>
-          <p className='hero-middle-section'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Quidem <br />
-            placea atque a delectus eos nobis. Dolor velit ea doloribus provident.</p>
+          <p className='hero-middle-section'>From Web Components and UI/UX animations to React.JS, Redux and Node.JS. Check out my latest web software development portfolio projects.</p>
           <button className='btn'>Download CV</button>
           <button className='btn'>Contact Me</button>
         </div>

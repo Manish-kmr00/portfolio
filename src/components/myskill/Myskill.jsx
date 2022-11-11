@@ -3,6 +3,8 @@ import  "./Myskill.css"
 
 
 
+
+
 const Myskill = () => {
 
 
@@ -13,7 +15,7 @@ const Myskill = () => {
         <div className='myskill-main-section'>
         <div className='myskill-section-one'>
               <h4>My creative skills & expriences</h4>
-              <p className='para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam corporis at porro nostrum, hic ad veniam consequatur placeat est iusto cum odio rem quos asperiores, commodi sequi ducimus atque obcaecati quisquam rerum esse distinctio ut suscipit? Nemo magni voluptatem veritatis voluptas architecto ex animi, consequatur natus enim consectetur aspernatur. Sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, suscipit, fugit iure ullam ipsum, ea maxime aut consectetur officiis impedit ipsa magnam unde obcaecati </p>
+              <p className='para'>I am good for this position because I know Html, CSS, React.js, Javascript, Bootstrap, and react-native to develop creative web application or mobile application. I will be able to adopt company's working environment quickly and can work efficiently. I think my skills are good for this job profile and I can learn and grow more to deliver better to the company and for betterment of my future. </p>
             </div>
             <div className='myskill-section-two'>
                 <div className='bars'>
@@ -39,17 +41,17 @@ const Myskill = () => {
                 </div>
                 <div className='bars'>
                 <div className='info'>
-                  <span>PHP</span>
+                  <span>React.js</span>
                   <span>66%</span>
                 </div>
-                <div className='line php'></div>
+                <div className='line react'></div>
                 </div>
                 <div className='bars'>
                 <div className='info'>
-                  <span>MySQL</span>
+                  <span>React-native</span>
                   <span>80%</span>
                 </div>
-                <div className='line mysql'></div>
+                <div className='line react-native'></div>
                 </div>
             </div>
         </div>

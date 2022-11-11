@@ -19,7 +19,7 @@ const About = () => {
             </div>
             <div className='section-two'>
               <h4>I'm manish and I'm a  Frontend Developer</h4>
-              <p className='para'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam corporis at porro nostrum, hic ad veniam consequatur placeat est iusto cum odio rem quos asperiores, commodi sequi ducimus atque obcaecati quisquam rerum esse distinctio ut suscipit? Nemo magni voluptatem veritatis voluptas architecto ex animi, consequatur natus enim consectetur aspernatur. Sit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, suscipit, fugit iure ullam ipsum, ea maxime aut consectetur officiis impedit ipsa magnam unde obcaecati </p>
+              <p className='para'> We are looking for an ambitious and self-driven Front-end Developer to join our team. As a Front-end Developer, you will be responsible for implementing visual elements that users see and interact within a web application, which makes your role crucial for the success of our business.At our company, you will be working with the latest technology, you will have the chance to advance and grow your career. </p>
             </div>
         </div>
       </div>
