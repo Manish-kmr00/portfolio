@@ -6,8 +6,8 @@
 
 
 .myservices {
-    padding-bottom: 125px;
-    padding-top: 10px;
+    padding-top: 50px;
+    padding-bottom: 75px;
 }
 
 .myservices .title {
@@ -15,7 +15,7 @@
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     padding-bottom: 20px;
 }
 
@@ -50,16 +50,16 @@
 
 
 .main-div {
-    display: grid;
-    grid-template-columns: 350px 350px 350px;
+    display: flex;
+    flex-direction: row;
     margin-left: 150px;
     margin-right: 150px;
 }
 
 .div-one{
-    color: crimson;
+    color: black;
     text-align: center;
-    background-color: cyan;
+    background-color: #0b74d783;
     margin-right: 25px;
     margin-left: 25px;
     padding-top: 25px;
@@ -73,8 +73,8 @@
 
 
 .div-two{
-    color: crimson;
-    background-color: cyan;
+    color: black;
+    background-color: #0b74d783;
     margin-right: 25px;
     margin-left: 25px;
     text-align: center;
@@ -90,8 +90,8 @@
 
 
 .div-three{
-    color: crimson;
-    background-color: cyan;
+    color: black;
+    background-color: #0b74d783;
     margin-right: 25px;
     margin-left: 25px;
     text-align: center;
@@ -104,4 +104,36 @@
 .div-three h3{
     padding-top: 15px;
     padding-bottom: 10px;
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    .main-div {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+.div-one{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.div-two{
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+.div-three{
+margin-top: 10px;
+}
+
+
 }

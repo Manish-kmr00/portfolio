@@ -7,10 +7,10 @@
 
 
 .myskill {
-    margin-top: 150px;
+    margin-top: 75px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 75px;
 }
 
 .myskill h4{
@@ -66,7 +66,7 @@
 
 .myskill .para{
  font-size: 18px;
- word-spacing: 2px;
+ word-spacing: 1px;
 }
 
 
@@ -89,7 +89,7 @@
 
 }
 
-.myskill-section-twp span{
+.myskill-section-two span{
     font-weight: 500;
     font-size: 18px;
 }
@@ -97,7 +97,7 @@
 .myskill-section-two .line{
 height: 5px;
 width: 100%;
-background-color: pink ;
+background-color: rgb(215, 239, 248) ;
 position: relative;
 }
 
@@ -108,7 +108,7 @@ position: relative;
     width: 100%;
     left: 0;
     top: 0;
-    background:crimson;
+    background:rgb(115, 208, 245);
 }
 
 
@@ -137,4 +137,36 @@ position: relative;
 
 .myskill-section-two .react-native::before{
     width: 35%;
+}
+
+
+
+@media (max-width: 480px) {
+
+    .myskill-main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+.myskill {
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.myskill-section-one{
+    text-align: justify;
+    padding: 0px;
+}
+
+
+
+.myskill-section-two{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+
 }

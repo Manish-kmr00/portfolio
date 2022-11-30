@@ -5,13 +5,12 @@
 }
 
 
-
 .about .title{
     position: relative;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     padding-bottom: 20px;
 }
 
@@ -26,6 +25,15 @@
     background: black;
     transform: translateX(-50%);
 }
+
+
+.section-one-profile img{
+    height: 350px;
+    width: 400px;
+}
+
+
+
 
 .about .title::after{
     content: "who i am";
@@ -54,6 +62,7 @@
 }
 
 
+
 .section-two{
     margin-top: -0;
 }
@@ -62,8 +71,41 @@
     margin-bottom: 20px;
 }
 
+
+
 .section-two .para{
     font-size: 18px;
     word-spacing: 8px;
     text-align: justify;
+}
+
+
+
+@media (max-width: 480px) {
+
+
+    .about-main-section{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .about{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+
+    .section-one-profile img{
+        align-items: center;
+    }
+
+    .section-two{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+
+
+
 }

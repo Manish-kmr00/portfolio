@@ -3,7 +3,8 @@
     grid-template-columns: 35% 65%;
     margin-left: 150px;
     margin-right: 150px;
-    height: 500px;
+    height: 480px;
+    margin-bottom: 100px;
 }
 
 
@@ -14,7 +15,7 @@
 
 
 .section-one{
-    background-color: #0BD7D4;
+    background-color: #0b74d783;
     padding: 30px;
     height: 525px;
 }
@@ -108,5 +109,5 @@
     padding: 12px;
     border-radius: 5px;   
     border: none;
-    background-color: #0BD7D4; 
+    background-color: #0b74d783; 
 }

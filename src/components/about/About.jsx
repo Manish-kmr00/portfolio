@@ -1,6 +1,6 @@
 import React from 'react'
 import  "../about/About.css"
-import men from "../../images/men.jpg"
+import about from "../../images/about.png"
 
 
 const About = () => {
@@ -8,14 +8,11 @@ const About = () => {
 
   return (
     <>
-
-
-
       <div className='about'>
         <h2 className='title'>About me</h2>
         <div className='about-main-section'>
             <div className='section-one-profile'>
-                <img src={men} alt="" />
+                <img src={about} alt="" />
             </div>
             <div className='section-two'>
               <h4>I'm manish and I'm a  Frontend Developer</h4>

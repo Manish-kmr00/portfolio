@@ -15,7 +15,7 @@ const Myskill = () => {
         <div className='myskill-main-section'>
         <div className='myskill-section-one'>
               <h4>My creative skills & expriences</h4>
-              <p className='para'>I am good for this position because I know Html, CSS, React.js, Javascript, Bootstrap, and react-native to develop creative web application or mobile application. I will be able to adopt company's working environment quickly and can work efficiently. I think my skills are good for this job profile and I can learn and grow more to deliver better to the company and for betterment of my future. </p>
+              <p className='para'>I am good for developing front-end engieer code or components because I know Html, CSS, React.js, Redux, Github, Bootstrap, react-native and Javascript to develop creative web application or mobile application. I will be able to adopt company's working environment quickly and can work efficiently. I think my skills are good for this job profile and I can learn and grow more to deliver better to the company and for betterment of my future. </p>
             </div>
             <div className='myskill-section-two'>
                 <div className='bars'>
