@@ -51,11 +51,11 @@
 }
 
 
-.Certificat-main-section div a{
+.Certificat-main-section div a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    background-color:rgb(61, 86, 87);
+    background-color: rgb(61, 86, 87);
     margin-left: 100px;
     padding-left: 25px;
     padding-right: 25px;
@@ -104,5 +104,255 @@
     width: 280px;
     background-color: #5BF1C1;
     padding: 20px;
+
+}
+
+
+
+
+/* responsible style */
+
+
+
+
+
+
+@media (max-width: 1080px) {}
+
+
+
+
+
+@media (max-width: 998px) {
+    .Certificat-main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Certificat-main-section-div-one img {
+        height: 150px;
+        width: 280px;
+        background-color: #5BF1C1;
+        padding: 25px;
+
+    }
+
+
+    .Certificat {
+        margin-left: 25px;
+        margin-top: 30px;
+        margin-right: 25px;
+    }
+
+
+    .Certificat-main-section div {
+        margin-bottom: 50px;
+        text-align: center;
+        margin-left: 50px;
+
+
+    }
+
+
+
+    .Certificat-main-section-div-one img {
+        height: 150px;
+        width: 375px;
+        background-color: #5BF1C1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .Certificat-main-section-div-two img{
+        height: 150px;
+        width: 375px;
+        background-color: #5BF1C1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
+    .Certificat-main-section-div-three img {
+        height: 150px;
+        width: 375px;
+        background-color: #5BF1C1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
+    .Certificat-main-section div a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 0px;
+        text-align: center;
+        background-color: rgb(61, 86, 87);
+    }
+    
+}
+
+
+
+
+@media (max-width: 798px) {
+    .Certificat-main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Certificat-main-section-div-one img {
+        height: 150px;
+        width: 280px;
+        background-color: #5BF1C1;
+        padding: 25px;
+
+    }
+
+
+    .Certificat {
+        margin-left: 25px;
+        margin-top: 30px;
+        margin-right: 25px;
+    }
+
+
+    .Certificat-main-section div {
+        margin-bottom: 50px;
+        text-align: center;
+        margin-left: 50px;
+
+
+    }
+
+
+
+    .Certificat-main-section-div-one img {
+        height: 150px;
+        width: 375px;
+        background-color: #5BF1C1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .Certificat-main-section-div-two img{
+        height: 150px;
+        width: 375px;
+        background-color: #5BF1C1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
+    .Certificat-main-section-div-three img {
+        height: 150px;
+        width: 375px;
+        background-color: #5BF1C1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
+    .Certificat-main-section div a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 0px;
+        text-align: center;
+        background-color: rgb(61, 86, 87);
+    }
+    
+}
+
+
+
+@media (max-width: 520px) {
+
+    .Certificat-main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Certificat-main-section-div-one img {
+        height: 150px;
+        width: 280px;
+        background-color: #5BF1C1;
+        padding: 25px;
+
+    }
+
+
+    .Certificat {
+        margin-left: 25px;
+        margin-top: 30px;
+        margin-right: 25px;
+    }
+
+
+    .Certificat-main-section div {
+        margin-bottom: 50px;
+        text-align: center;
+        margin-left: 50px;
+
+
+    }
+
+
+
+    .Certificat-main-section-div-one img {
+        height: 150px;
+        width: 375px;
+        background-color: #5BF1C1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .Certificat-main-section-div-two img{
+        height: 150px;
+        width: 375px;
+        background-color: #5BF1C1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
+    .Certificat-main-section-div-three img {
+        height: 150px;
+        width: 375px;
+        background-color: #5BF1C1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
+    .Certificat-main-section div a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin: 0px;
+        text-align: center;
+        background-color: rgb(61, 86, 87);
+    }
+    
+
+
 
 }

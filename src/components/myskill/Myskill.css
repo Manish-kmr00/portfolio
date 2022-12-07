@@ -7,14 +7,15 @@
 
 
 .myskill {
+    margin-bottom: 0px;
+    margin-left: 100px;
+    margin-right: 150px ;
     margin-top: 75px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 75px;
 }
 
 .myskill h4{
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .myskill-title {
@@ -140,8 +141,71 @@ position: relative;
 }
 
 
+@media (max-width: 1080px){
+}
 
-@media (max-width: 480px) {
+
+
+
+
+@media (max-width: 998px) {
+
+    .myskill-main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myskill {
+        margin-top: 0px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    .myskill-section-two{
+        margin-left: 0px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+        
+}
+
+
+
+@media (max-width: 798px) {
+
+    .myskill-main-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myskill {
+        margin-top: 0px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+
+    .myskill-section-two{
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+        
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 520px) {
 
     .myskill-main-section {
         display: flex;
@@ -150,23 +214,21 @@ position: relative;
 
 .myskill {
     margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
-
-.myskill-section-one{
-    text-align: justify;
-    padding: 0px;
-}
 
 
 
 .myskill-section-two{
-    margin-left: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-right: 0px;
     margin-bottom: 0px;
 }
+    
+
 
 
 }

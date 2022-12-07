@@ -7,13 +7,7 @@ import logo from "../../images/logo.png"
 import { NavLink, Link, useNavigate } from 'react-router-dom'
 import "./Navbar.css"
 
-
-
-
-
-
 const Navbar = () => {
-
 
   const navigate = useNavigate()
 
@@ -21,8 +15,6 @@ const Navbar = () => {
 
     navigate("./Contactme") 
   }
-
-
 
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   return (
@@ -53,7 +45,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-
+        
         {/* 3rd social media links */}
         <div className="social-media">
           <ul className="social-media-desktop">
@@ -85,12 +77,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
-      {/* hero section  */}
-      {/* <section className="hero-section">
-        <p>Welcome to </p>
-        <h1>Thapa Technical</h1>
-      </section> */}
     </>
   );
 };

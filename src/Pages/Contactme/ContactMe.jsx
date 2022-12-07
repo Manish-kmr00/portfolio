@@ -40,7 +40,7 @@ const ContactMe = () => {
             <p>We're open for any suggestion or just to have a chat</p>
             <div className='section-one-input'>
               <div className='address'>
-                <p> <IoLocationSharp /> Address : Okhla phase industrial estate south delhi ND - 110020</p>
+                <p> <IoLocationSharp /> Address : Okhla industrial estate south delhi ND - 110020</p>
               </div>
               <div className='phone-one'>
                 <p ><IoCallSharp />  Phone: +91 7065 0181 63</p>
@@ -73,17 +73,17 @@ const ContactMe = () => {
           <div className='section-two'>
             <form onSubmit={handlesubmit}>
               <h2>Get in touch</h2>
-              <div className="email">
-                <label htmlFor="email">Email Address</label><br />
-                <input type="text" placeholder='Email' value={userregistration.email}
-                  onChange={inputFun}
-                  name="email" />
-              </div>
               <div className="usename">
                 <label htmlFor="username">Full Name</label><br />
                 <input type="text" placeholder='Name' value={userregistration.username}
                   onChange={inputFun}
                   name="username" />
+              </div>
+              <div className="email">
+                <label htmlFor="email">Email Address</label><br />
+                <input type="text" placeholder='Email' value={userregistration.email}
+                  onChange={inputFun}
+                  name="email" />
               </div>
               <div className="phone" >
                 <label htmlFor="phone">Phone No</label><br />
@@ -93,7 +93,7 @@ const ContactMe = () => {
               </div>
               <div className='message'>
                 <label htmlFor="message" >Message</label><br />
-                <textarea rows="6" cols="45"
+                <textarea rows="5" cols="25"
                   type="text" placeholder='Type your message' value={userregistration.message}
                   onChange={inputFun}
                   name="message" />

@@ -2,7 +2,11 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+
 }
+
+
 
 
 
@@ -10,19 +14,16 @@
     display: grid;
     grid-template-columns: 60% 30%;
     margin-bottom: 0px;
+    margin-left: 125px;
+    margin-right: 125px ;
     margin-top: 75px;
-}
-
-
-.front-section-para{
-    margin-top: 50px;
-    margin-left: 200px;
 }
 
 
 
 .front-middle-section{
     word-spacing: 2px;
+    font-size: 18px;
 }
 
 
@@ -74,9 +75,43 @@ h1.front-heading{
 
 
 
-/* responive code  */
- 
-@media (max-width: 480px) {
+
+@media (max-width: 1080px){
+
+
+    .front-section{
+            margin-left: 100px;
+            margin-right: 0px;
+        
+        }
+    
+
+
+    .front-image img{
+        height: 400px;
+        width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+    }
+
+
+    .front-section-para{
+        margin-top: 0px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 998px) {
+
 
     .front-section{
         display: flex;
@@ -84,9 +119,84 @@ h1.front-heading{
     }
 
 
+
     .front-image img{
-        height: 350px;
-        width: 350px;
+        height: 400px;
+        width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+
+    }
+
+
+
+    .front-section-para{
+        margin-top: 0px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .front-section{    
+        margin-top: 75px;
+        margin-bottom: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+}
+
+
+
+@media (max-width: 798px) {
+    .front-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .front-image img{
+        height: 400px;
+        width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+    }
+
+    .front-section{
+        
+        margin-top: 75px;
+        margin-bottom: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+
+}
+
+
+
+/* responive code  */
+ 
+@media (max-width: 520px) {
+    
+    .front-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .front-image img{
+        height: 300px;
+        width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+
     }
 
 
@@ -121,6 +231,16 @@ h1.front-heading{
     border: none;
     font-size: 10px;
     margin-left: 0px;
+}
+
+
+
+
+.front-section{    
+    margin-top: 75px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 

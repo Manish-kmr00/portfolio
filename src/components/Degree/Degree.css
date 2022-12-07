@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
+.basic-qualification {
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
-.basic-qualification h3{
+
+
+
+
+.basic-qualification h3 {
     text-align: center;
     margin-top: 60px;
     font-size: 40px;
@@ -15,39 +23,48 @@
 
 
 
+   /* section-one */
 
-.degree-one-icon img{
-height: 150px;
-margin-right: 10px;
-padding-top: 40px;
-padding-right: 45px;
-padding-bottom: 15px;
-padding-left: 70px;
+
+
+
+
+   .degree{
+    margin-top: 75px;
+    margin-bottom: 25px;
+    display: flex;
+    margin-left: 0px;
+    padding-right: 0px;
+
 }
 
 
 
 
-.degree {
-    margin-top: 50px;
-    display: flex;
-    margin-left: 50px;
+
+.degree-one-icon img {
+    height: 150px;
+    width: 235px;
+    padding-bottom: 10px;
+    margin-right: 40px;
+    padding-top: 20 px;
+   
 }
 
 
 .degree-div-one {
     border: 2px solid green;
-        margin-bottom: 25px;
-        margin-top: 25px;
-        
+    margin-bottom: 25px;
+    margin-top: 25px;
+
 }
 
 
-.degree-title{
-background-color: skyblue;
+.degree-title {
+    background-color: skyblue;
 }
 
-.degree-div-one h4{
+.degree-div-one h4 {
     padding-top: 20px;
     margin-bottom: 10px;
     font-size: 25px;
@@ -56,27 +73,34 @@ background-color: skyblue;
 }
 
 
-.degree-div-one h4 span{
+.degree-div-one h4 span {
     margin-left: 160px;
     font-size: 16px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 
 
-.degree-div-one h6{
+
+
+.degree-div-one h6 {
     padding-bottom: 10px;
-    font-size: 18px;  
+    font-size: 18px;
     padding-left: 25px;
 
 }
 
 
-.degree-div-one .degree-para{
+.degree-div-one .degree-para {
     background-color: white;
     padding-left: 25px;
     padding-bottom: 10px;
-    
+
 }
+
+
+
+
+
 
 
 /* Section-div-two */
@@ -86,15 +110,16 @@ background-color: skyblue;
 
 .degree-div-two {
     border: 2px solid green;
-        margin-bottom: 25px;
+    margin-bottom: 25px;
+    margin-left: 0px;
 }
 
 
-.degree-title{
-background-color: skyblue;
+.degree-title {
+    background-color: skyblue;
 }
 
-.degree-div-two h4{
+.degree-div-two h4 {
     padding-top: 20px;
     margin-bottom: 10px;
     font-size: 25px;
@@ -103,48 +128,449 @@ background-color: skyblue;
 }
 
 
-.degree-div-two h4 span{
+.degree-div-two h4 span {
     margin-left: 200px;
     font-size: 16px;
     padding-right: 40px;
 }
 
 
-.degree-div-two h6{
+.degree-div-two h6 {
     padding-bottom: 10px;
-    font-size: 18px;  
+    font-size: 18px;
     padding-left: 25px;
 
 }
 
 
-.degree-div-two .degree-para{
+.degree-div-two .degree-para {
     background-color: white;
     padding-left: 25px;
     padding-bottom: 10px;
-    
+
 }
 
 
 
-.degree-two-icon img{
+.degree-two-icon img {
     height: 150px;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    padding-left: 70px;
-    margin-right: 10px;
-    }
-    
+    width: 235px;
+    padding-bottom: 10px;
+}
 
 
 
-    .degree-two{
-        margin-top: 100px;
-        margin-bottom: 100px;    
+
+.degree-two {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    margin-left: 50px;
+    padding-right: 10px;
+
+}
+
+
+/* responsive style  */
+
+
+@media (max-width: 998px) {
+
+    .basic-qualification {
         display: flex;
-        margin-left: 50px;
-        padding-right: 10px;
+        flex-direction: column;
+    }
+
+
+.degree-one-icon img {
+    height: 180px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+   padding: 40px;
+}
+
+
+
+.degree{
+    display: flex;
+    flex-direction: column;
+    margin-left: -100px;
+    margin-right: -100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+.degree-one-icon img {
+    height: 180px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding: 0px;
+}
+
+
+
+
+.degree-div-one h4 {
+    padding-top: 20px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+
+
+
+
+.degree-div-one h4 span {
+    margin-left: -115px;
+    margin-top: 55px;
+    position: absolute;
+    display: inline;
+
+}
+
+
+
+
+
+
+.degree-two {
+    display: flex;
+    flex-direction: column;
+    margin-left: -100px;
+    margin-right: -100px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+.degree-two-icon img {
+    height: 180px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+
+
+
+.degree-div-two h4 {
+    padding-top: 20px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+
+
+
+
+.degree-div-two h4 span {
+    margin-left: -115px;
+    margin-top: 55px;
+    position: absolute;
+    display: inline;
+
+}
+
+
+.degree-div-one{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+
+.degree-div-two{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+
+}
+
+
+
+@media (max-width: 798px) {
+   
+   
+   
+    .basic-qualification {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .degree-one-icon img {
+        height: 280px;
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+       
+    }
+
+
+
+    .degree{
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+        margin-right: -100px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+ 
+
+
+    .degree-one-icon img {
+        height: 180px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        padding: 40px;
+    }
+
+
+
+
+    .degree-div-one h4 {
+        padding-top: 20px;
+        margin-bottom: 40px;
+        font-size: 25px;
+        padding-left: 25px;
+    }
+
+
+
+
+    
+    .degree-div-one h4 span {
+        margin-left: -115px;
+        margin-top: 55px;
+        position: absolute;
+        display: inline;
 
     }
+
+
+
+
+
+
+    .degree-two {
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+        margin-right: -100px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+ 
+
+
+    .degree-two-icon img {
+        height: 180px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+
+
+
+
+    .degree-div-two h4 {
+        padding-top: 20px;
+        margin-bottom: 40px;
+        font-size: 25px;
+        padding-left: 25px;
+    }
+
+
+
+
     
+    .degree-div-two h4 span {
+        margin-left: -115px;
+        margin-top: 55px;
+        position: absolute;
+        display: inline;
+
+    }
+
+
+    .degree-div-one{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+
+
+    .degree-div-two{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+   
+
+
+}
+
+
+
+
+
+
+@media (max-width: 520px) {
+    .basic-qualification {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .degree-one-icon img {
+        height: 280px;
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+       
+    }
+
+
+
+    .degree{
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+        margin-right: -100px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+ 
+
+
+    .degree-one-icon img {
+        height: 180px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        padding: 40px;
+    }
+
+
+
+
+    .degree-div-one h4 {
+        padding-top: 20px;
+        margin-bottom: 40px;
+        font-size: 25px;
+        padding-left: 25px;
+    }
+
+
+
+
     
+    .degree-div-one h4 span {
+        margin-left: -115px;
+        margin-top: 55px;
+        position: absolute;
+        display: inline;
+
+    }
+
+
+
+
+
+
+    .degree-two {
+        display: flex;
+        flex-direction: column;
+        margin-left: -100px;
+        margin-right: -100px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+ 
+
+
+    .degree-two-icon img {
+        height: 180px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+
+
+
+
+    .degree-div-two h4 {
+        padding-top: 20px;
+        margin-bottom: 40px;
+        font-size: 25px;
+        padding-left: 25px;
+    }
+
+
+
+
+    
+    .degree-div-two h4 span {
+        margin-left: -115px;
+        margin-top: 55px;
+        position: absolute;
+        display: inline;
+
+    }
+
+
+    .degree-div-one{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+
+
+    .degree-div-two{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+}

@@ -3,11 +3,20 @@
     grid-template-columns: 35% 65%;
     margin-left: 150px;
     margin-right: 150px;
-    height: 480px;
-    margin-bottom: 100px;
+    height: 500px;
+    margin-bottom: 200px;
 }
 
 
+p{
+    font-size: 16px;
+}
+
+
+
+label{
+    font-size: 18px;
+}
 
 /* section-one */
 
@@ -17,16 +26,18 @@
 .section-one{
     background-color: #0b74d783;
     padding: 30px;
-    height: 525px;
+    height: 550px;
 }
 
 
 .section-one h2{
     padding-top: 22px;
+    font-size: 22px;
 }
 
 .section-one p{
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -65,14 +76,25 @@
 .section-two h2{
     margin-bottom: 25px;
     margin-top: 50px;
+    font-size: 22px;
 }
 
 .section-two input{
-    margin-top: 15px;
+    margin-top: 5px;
+    font-size: 18px;
     padding-right: 70px;
     border: none;
     border-bottom: 1px solid gray;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+
+.section-two 
+input:hover,
+input:focus {
+  background: #addada;
+  transition: 0.5s linear 0s;
+
 }
 
 
@@ -81,25 +103,27 @@
 }
 
 
-.section-two .email{
-    position: absolute;
-    align-items: right;
-    right: 250px;
-    top: 178px;
-    border: none;
-    border-bottom: 1px gray;
-}
+
 
 
 .section-two .phone input{
-    padding-right: 360px;
+    width: auto;
 }
 
 
+.section-two .message textarea:hover,textarea:focus{
+    background: #addada;
+    transition: 0.5s linear 0s;  
+}
+
+
+.section-two .message ::placeholder{
+    font-size: 18px;
+}
 
 .section-two .message textarea{
     border: none;
-    margin-top: 10px;
+    margin-top: 5px;
     border-bottom: 1px solid gray;
     padding-right: 160px;
 }
@@ -110,4 +134,75 @@
     border-radius: 5px;   
     border: none;
     background-color: #0b74d783; 
+}
+
+
+
+
+             /* responsive style */
+
+
+
+
+
+
+@media (max-width: 998px) {
+
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 412px;
+        margin-bottom: 650px;
+    }
+    
+}
+
+@media (max-width: 798px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 412px;
+        margin-bottom: 650px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 520px) {
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        margin-right: 25px;
+        height: 430px;
+        margin-bottom: 650px;
+    }
+
+
+    .section-two .message textarea{
+        border: none;
+        margin-top: 5px;
+        border-bottom: 1px solid gray;
+        padding-right: 100px;
+    }
+
+
+    .section-two{
+        margin: 50px;   
+     }
+    
+    
 }
