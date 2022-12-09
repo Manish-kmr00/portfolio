@@ -27,7 +27,6 @@ const Footer = () => {
             </div>
           </div>
           <p className='footer-first-para'>© Copyright 2022 by Manish</p>
-          <p className='footer-second-para'>second</p>
         </div>
       </footer>
 

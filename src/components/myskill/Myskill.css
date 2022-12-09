@@ -115,29 +115,29 @@ position: relative;
 
 
 .myskill-section-two .html::before{
-    width: 90%;
+    width: 70%;
 }
 
 
 .myskill-section-two .css::before{
-    width: 50%;
+    width: 60%;
 }
 
 
 
 .myskill-section-two .js::before{
-    width: 60%;
+    width: 40%;
 }
 
 
 .myskill-section-two .react::before{
-    width: 70%;
+    width: 60%;
 }
 
 
 
 .myskill-section-two .react-native::before{
-    width: 35%;
+    width: 45%;
 }
 
 

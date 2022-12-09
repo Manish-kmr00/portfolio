@@ -21,35 +21,35 @@ const Myskill = () => {
                 <div className='bars'>
                 <div className='info'>
                   <span>HTML</span>
-                  <span>80%</span>
+                  <span>70%</span>
                 </div>
                 <div className='line html'></div>
                 </div>
                 <div className='bars'>
                 <div className='info'>
                   <span>CSS</span>
-                  <span>70%</span>
+                  <span>60%</span>
                 </div>
                 <div className='line css'></div>
                 </div>
                 <div className='bars'>
                 <div className='info'>
                   <span>JavaScript</span>
-                  <span>50%</span>
+                  <span>40%</span>
                 </div>
                 <div className='line js'></div>
                 </div>
                 <div className='bars'>
                 <div className='info'>
                   <span>React.js</span>
-                  <span>66%</span>
+                  <span>60%</span>
                 </div>
                 <div className='line react'></div>
                 </div>
                 <div className='bars'>
                 <div className='info'>
                   <span>React-native</span>
-                  <span>80%</span>
+                  <span>45%</span>
                 </div>
                 <div className='line react-native'></div>
                 </div>

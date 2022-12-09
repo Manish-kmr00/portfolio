@@ -5,7 +5,7 @@ import Home from "./Pages/Home"
 import Education from "./Pages/Education/Education"
 import Footer from "./components/footer/Footer"
 import Navbar from './components/navbar/Navbar';
-import NotFound from './Pages/NotFound';
+import NotFound from './Pages//notfound/NotFound';
 import Projects from './Pages/Project/Projects';
 
 

@@ -92,7 +92,7 @@ label{
 .section-two 
 input:hover,
 input:focus {
-  background: #addada;
+  background: #edf3f3;
   transition: 0.5s linear 0s;
 
 }
@@ -111,14 +111,18 @@ input:focus {
 }
 
 
-.section-two .message textarea:hover,textarea:focus{
-    background: #addada;
-    transition: 0.5s linear 0s;  
-}
-
 
 .section-two .message ::placeholder{
     font-size: 18px;
+}
+
+
+.section-two .message
+textarea:hover,
+textarea:focus {
+  background: #edf3f3;
+  transition: 0.5s linear 0s;
+
 }
 
 .section-two .message textarea{
@@ -134,6 +138,7 @@ input:focus {
     border-radius: 5px;   
     border: none;
     background-color: #0b74d783; 
+    cursor: pointer;
 }
 
 

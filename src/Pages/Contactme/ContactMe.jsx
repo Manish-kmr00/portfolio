@@ -1,6 +1,5 @@
 import React from 'react'
 import "./ContactMe.css"
-import { useState } from 'react'
 import { IoCallSharp, IoLocationSharp } from "react-icons/io5";
 import { MdOutlineEmail, MdPublic } from "react-icons/md";
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
@@ -11,25 +10,6 @@ import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const ContactMe = () => {
 
-  const [userregistration, setUserRegistration] = useState({
-    username: "",
-    email: "",
-    phone: "",
-    message: "",
-
-  })
-
-  const inputFun = (e) => {
-    const name = e.target.name
-    const value = e.target.value
-
-    setUserRegistration({ ...userregistration, [name]: value });
-  }
-
-
-  const handlesubmit = (e) => {
-    e.preventDefault();
-  }
 
   return (
     <>
@@ -40,7 +20,7 @@ const ContactMe = () => {
             <p>We're open for any suggestion or just to have a chat</p>
             <div className='section-one-input'>
               <div className='address'>
-                <p> <IoLocationSharp /> Address : Okhla industrial estate south delhi ND - 110020</p>
+                <p> <IoLocationSharp /> Address : Okhla industrial estate south <span style={{paddingLeft:"91px"}}> delhi ND - 110020</span></p>
               </div>
               <div className='phone-one'>
                 <p ><IoCallSharp />  Phone: +91 7065 0181 63</p>
@@ -71,31 +51,28 @@ const ContactMe = () => {
             </div>
           </div>
           <div className='section-two'>
-            <form onSubmit={handlesubmit}>
+            <form action='https://formspree.io/f/mqkjrdoq'
+            method='POST'>
               <h2>Get in touch</h2>
               <div className="usename">
                 <label htmlFor="username">Full Name</label><br />
-                <input type="text" placeholder='Name' value={userregistration.username}
-                  onChange={inputFun}
+                <input type="text" placeholder='Name'
                   name="username" />
               </div>
               <div className="email">
                 <label htmlFor="email">Email Address</label><br />
-                <input type="text" placeholder='Email' value={userregistration.email}
-                  onChange={inputFun}
+                <input type="text" placeholder='Email'
                   name="email" />
               </div>
               <div className="phone" >
                 <label htmlFor="phone">Phone No</label><br />
-                <input type="text" placeholder='Phone' value={userregistration.phone}
-                  onChange={inputFun}
+                <input type="text" placeholder='Phone'
                   name="phone" />
               </div>
               <div className='message'>
                 <label htmlFor="message" >Message</label><br />
                 <textarea rows="5" cols="25"
-                  type="text" placeholder='Type your message' value={userregistration.message}
-                  onChange={inputFun}
+                  type="text" placeholder='Type your message' 
                   name="message" />
               </div>
               <button className='section-two-btn' type='Submit'>Send Message</button>
