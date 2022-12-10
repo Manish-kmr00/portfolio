@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.484e7371.chunk.css",
-  "main.js": "/static/js/main.9909d1f1.chunk.js",
-  "main.js.map": "/static/js/main.9909d1f1.chunk.js.map",
-  "static/js/1.14fe6d0e.chunk.js": "/static/js/1.14fe6d0e.chunk.js",
-  "static/js/1.14fe6d0e.chunk.js.map": "/static/js/1.14fe6d0e.chunk.js.map",
+  "main.css": "/static/css/main.23bf657d.chunk.css",
+  "main.js": "/static/js/main.4e668d3c.chunk.js",
+  "main.js.map": "/static/js/main.4e668d3c.chunk.js.map",
+  "static/js/1.3a05ec6a.chunk.js": "/static/js/1.3a05ec6a.chunk.js",
+  "static/js/1.3a05ec6a.chunk.js.map": "/static/js/1.3a05ec6a.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/about.png": "/static/media/about.48ac8421.png",
@@ -14,8 +14,9 @@
   "static/media/ignou.png": "/static/media/ignou.75431464.png",
   "static/media/nios.png": "/static/media/nios.82c596e5.png",
   "static/media/logo.png": "/static/media/logo.35a3f9f0.png",
-  "static/css/main.484e7371.chunk.css.map": "/static/css/main.484e7371.chunk.css.map",
+  "static/media/notfound.png": "/static/media/notfound.c46d964b.png",
+  "static/css/main.23bf657d.chunk.css.map": "/static/css/main.23bf657d.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.58447aa36f20c9afa840d0a66e7f9e43.js": "/precache-manifest.58447aa36f20c9afa840d0a66e7f9e43.js",
+  "precache-manifest.ff717607baed9c8546967fa7b28e08ec.js": "/precache-manifest.ff717607baed9c8546967fa7b28e08ec.js",
   "service-worker.js": "/service-worker.js"
 }
